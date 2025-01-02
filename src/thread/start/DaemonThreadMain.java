@@ -8,6 +8,7 @@ public class DaemonThreadMain {
         daemonThread.setDaemon(true);        // 데몬 스레드 여부
         daemonThread.start();
 
+
         System.out.println(Thread.currentThread().getName() + ": main() end");
     }
 
